@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "mongo";
+
+
+// Request message for getting data from MongoDB
+message GetDatabaseRequest {
+  string connectionString = 1;
+  string databaseName = 2;
+}
+
+// Response message containing collection data
+message CollectionData {
+  map<string, Collection> collectionsData = 1;
+}
+
+message Collection {
+  repeated DataField data = 1;
+}
+
+message DataField {
+  map<string, string> fields = 1;
+}
+
+// Service definition
+service DatabaseService {
+  rpc GetDatabaseData(GetDatabaseRequest) returns (CollectionData);
+}
+
+

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongo", "mongo.csproj", "{AA6DD49D-7C82-4CF1-A9B5-6A84899D1400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongowebapi", "..\mongowebapi\mongowebapi.csproj", "{F1BC071F-74AC-475A-8A7B-CA77CFB481BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongoconsole", "..\mongoconsole\mongoconsole.csproj", "{832A000F-9078-49B4-AFE3-14A18E37078E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA6DD49D-7C82-4CF1-A9B5-6A84899D1400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6DD49D-7C82-4CF1-A9B5-6A84899D1400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6DD49D-7C82-4CF1-A9B5-6A84899D1400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6DD49D-7C82-4CF1-A9B5-6A84899D1400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BC071F-74AC-475A-8A7B-CA77CFB481BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BC071F-74AC-475A-8A7B-CA77CFB481BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BC071F-74AC-475A-8A7B-CA77CFB481BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BC071F-74AC-475A-8A7B-CA77CFB481BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832A000F-9078-49B4-AFE3-14A18E37078E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832A000F-9078-49B4-AFE3-14A18E37078E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832A000F-9078-49B4-AFE3-14A18E37078E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832A000F-9078-49B4-AFE3-14A18E37078E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC5328F9-684C-4D0B-802C-131315D8203D}
+	EndGlobalSection
+EndGlobal

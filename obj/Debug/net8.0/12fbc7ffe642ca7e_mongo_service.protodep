@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/MongoService.cs \
+obj\Debug\net8.0\Protos/MongoServiceGrpc.cs: Protos/mongo_service.proto
